@@ -237,7 +237,6 @@ sup{
 
 /* footer style  */
 footer{
-    position: absolute;
     width: 100%;
     bottom: 0;
     background-color: var(--main-bg);
@@ -278,6 +277,6 @@ footer p{
         font-weight: 900;
     }
     footer{
-        margin-top: 20px;
+        margin-top: auto;
     }
 }

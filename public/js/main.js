@@ -39,7 +39,7 @@ const getinfo = async (event) => {
             datahide.classList.remove("data_hide")
         }
         catch{
-            city_name.innerText= `Please write the city name Properly OR Check ypur internet connection`
+            city_name.innerText= `Please write the city name Properly OR Check your internet connection`
             datahide.classList.add("data_hide")
         }
     }
